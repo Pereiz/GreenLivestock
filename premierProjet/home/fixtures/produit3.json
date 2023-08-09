@@ -1,0 +1,17 @@
+[
+  {
+    "model" : "home.Produit",
+    "fields" : {
+      "libelle" : "",
+      "description" : "",
+      "image" : "",
+      "categorie" : "",
+      "statut" : "",
+      "adressePhysique" : "",
+      "quantitedispo" : "",
+      "prix" : "",
+      "created_at" : "2023-08-07T19:14:21.788Z",
+      "updated_at" : "2023-08-07T19:14:21.788Z"
+    }
+  }
+]
