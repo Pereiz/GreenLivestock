@@ -1,0 +1,23 @@
+{# Load the tag library #}
+{% load bootstrap4 %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery='full' %}
+
+{# Display django.contrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
+
+{# Display a form #}
+<form action="" method="post" class="form">
+  {% csrf_token %}
+  {#% bootstrap_form form %#}
+    <h5>{% lorem  %}</h5>
+  {% buttons %}
+    <button type="submit" class="btn btn-primary">
+      Allo
+    </button>
+  {% endbuttons %}
+</form>
+
+{# Read the documentation for more information #}
